@@ -1,3 +1,5 @@
+> TL;DR: reproduce the issue by doing `cargo run`
+
 This repository contains a reproducer for the following issue:
 
 - The `tough` crate uses a `hyper` version < 1.0. This is a transitive dependency
